@@ -96,3 +96,28 @@ form button {
     border-radius: 4px;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .tab-nav {
+        flex-direction: row;
+        padding: 0.5rem 0;
+        display: flex;
+    }
+
+    .tab-button {
+        margin: 0.5rem 0;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    form input, form textarea {
+        width: 90%;
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 2px;
+    }
+}

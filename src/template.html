@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <!-- <link rel="stylesheet" href="style.css"> dihapus karena sudah load cs menggunakan js -->
+</head>
+<body>
+    <app-bar>Notes App</app-bar>
+
+    <nav class="tab-nav"> 
+        <button class="tab-button" id="addNoteButton">Tambah Note</button>
+        <button class="tab-button" data-tab="not-archived">All Notes</button>
+        <button class="tab-button" data-tab="archived">Arsip Notes</button>
+    </nav>
+
+    <div class="container" id="notesContainer"></div>
+
+    <!-- <script src="notes.js"></script>  // bagian ini dihapus karena merupakan data dumy -->
+    <script src="index.js"></script><!-- ganti index.js supaya tidak bingung dengan kode sebelumnya -->
+</body>
+</html>
